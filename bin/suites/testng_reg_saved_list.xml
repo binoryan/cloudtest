@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Saved List Suite" thread-count="100" parallel="methods">
+
+	 <test name="SAVED LIST">
+		 <packages>
+			 <package name="com.selenium.ebiz.save_list"/>
+		 </packages>
+
+	</test>
+</suite>

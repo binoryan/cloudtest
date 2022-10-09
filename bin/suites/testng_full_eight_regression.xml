@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Regression Suite Group 8" thread-count="100" parallel="methods">
+
+	<test name="Regression Suite Group 8">
+
+		<packages><!-- 47 -->
+			<package name="com.selenium.ebiz.order_history.orderHistory_grid"/> <!--47 -->
+		</packages>
+
+
+	</test>
+</suite>

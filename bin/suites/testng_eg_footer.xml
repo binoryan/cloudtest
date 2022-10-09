@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Suite">
+
+
+
+	 <test name="Footer Test">
+		<classes>
+			<class name="com.selenium.ebiz.footer.FooterLinkParameterization_Grid" />
+		</classes>
+	</test>
+</suite>

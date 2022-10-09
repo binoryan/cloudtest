@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Login Regression Tests" verbose="100" thread-count="100" parallel="methods">
+
+	<listeners>
+		<listener class-name="com.selenium.ebiz.listener.TestListener"/>
+		<listener class-name="com.selenium.ebiz.listener.AnnotationTransformer"/>
+	</listeners>
+
+	 <test name="LOGIN">
+	 
+	<packages>
+			<package name="com.selenium.ebiz.account_management.registration"/>
+		</packages> 
+		
+	</test>
+</suite>

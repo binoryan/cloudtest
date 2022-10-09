@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Regression Suite Group 10" thread-count="100" parallel="methods">
+
+	<test name="Regression Suite Group 10">
+
+		<packages><!-- 40 -->
+			<package name="com.selenium.ebiz.save_list"/> <!--27-->
+			<package name="com.selenium.ebiz.quickCheckout"/> <!--13-->
+		</packages>
+
+
+	</test>
+</suite>

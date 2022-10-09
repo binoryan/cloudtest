@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Thirteen Regression Suite" thread-count="100" parallel="methods">
+
+	<test name="Thirteen Regression Suite">
+
+		<packages> <!-- 53  -->
+			<package name="com.selenium.ebiz.add_to_list.addToList_grid"/> <!--  -->
+			<package name="com.selenium.ebiz.account_management.login"/> <!--  -->
+			<package name="com.selenium.ebiz.cpr_Report"/> <!-- 10 -->
+		</packages>
+
+	</test>
+</suite>

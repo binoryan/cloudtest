@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Suite" parallel="methods" verbose="100" thread-count="100">
+
+	<!--listeners>
+		<listener class-name="com.selenium.ebiz.listener.TestListener"/>
+		<listener class-name="com.selenium.ebiz.listener.AnnotationTransformer"/>
+	</listeners-->
+
+	 <test name="MY ACCOUNT">
+		<packages>
+			<package name="com.selenium.ebiz.account_management.my_account"/>
+		</packages>
+	</test>
+</suite>
