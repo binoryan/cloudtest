@@ -192,7 +192,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<file>${project.basedir}/suites/testng_reg_smoketest.xml</file>
+						<file>${project.basedir}/suites/testRun1.xml</file>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<environment.properties>/config/environment.properties</environment.properties>
@@ -208,15 +208,6 @@
 						<version>1.9.1</version>
 					</dependency>
 				</dependencies>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-
-				</configuration>
 			</plugin>
 
 			<plugin>

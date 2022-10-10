@@ -1,6 +1,5 @@
 package com.selenium.ui.tools;
 
-import com.selenium.ui.dbcon.DBCon;
 import org.openqa.selenium.WebDriver;
 
 public class PageManager {
@@ -13,9 +12,6 @@ public class PageManager {
         this.driver = driver;
     }
 
-    public DBCon dBCon(){
-        return new DBCon();
-    }
 
     public CaptureScreenShot captureScreenShot(){return new CaptureScreenShot(driver);}
 

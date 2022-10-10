@@ -1,7 +1,6 @@
 package com.selenium.ui.baseclass;
 
 import com.selenium.ui.tools.ConfigFileRead;
-import com.selenium.ui.tools.PageManager;
 import com.selenium.ui.tools.PropertyLoader;
 import com.selenium.ui.tools.WaitTool;
 import org.apache.log4j.Logger;
@@ -9,7 +8,6 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.CapabilityType;
@@ -20,13 +18,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.asserts.SoftAssert;
 
-import java.io.File;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 public class BaseClassV8_ParallelGrid {
 	protected String environmentValue;

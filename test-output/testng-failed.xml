@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" parallel="methods" name="Failed suite [TestRun]" guice-stage="DEVELOPMENT" verbose="100">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.selenium.ui.account_management.login.HomePageAuthenticatedUser">
+        <methods>
+          <include name="login_verifyLinkedInLink" invocation-numbers="0"/>
+          <include name="getReport"/>
+          <include name="login_verifyGoogleLink" invocation-numbers="0"/>
+          <include name="login_verifyFacebookLink" invocation-numbers="0"/>
+          <include name="login_verifyTwitterLink" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.ui.account_management.login.HomePageAuthenticatedUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestRun] -->
