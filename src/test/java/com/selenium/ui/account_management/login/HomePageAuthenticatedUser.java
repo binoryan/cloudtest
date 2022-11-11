@@ -65,7 +65,7 @@ public class HomePageAuthenticatedUser extends BaseClassV8_ParallelGrid
 		WebDriver driver = this.getWebDriver();
 		getURL("https://www.google.com");
 		PageManager pageManager = new PageManager(driver);
-		String title = pageManager.common().getTitle(driver);
+		String title = pageManager.common().getTitle(driver);;
 		Assert.assertTrue(title.contains(google));
 	}
 	
