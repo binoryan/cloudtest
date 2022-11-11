@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Suite" parallel="methods" thread-count="100" verbose="100">
+	<listeners>
+		<listener
+			class-name="com.selenium.ebiz.listener.TestListener" />
+		<listener
+			class-name="com.selenium.ebiz.listener.AnnotationTransformer" />
+	</listeners>
+
+	<test name="SEARCH">
+		<packages>
+			<package name="com.selenium.ebiz.search" />
+		</packages>
+		<!-- <classes> <class name="com.selenium.ebiz.search.searchRegression.DisplayRelatedSearchesThematicPagesAuthenticatedUser"
+			/> <class name="com.selenium.ebiz.search.DiscontinuedPartwithReplacementLoggedInUser" 
+			/> <class name="com.selenium.ebiz.search.DiscontinuedPartwithReplacementGuestUser" 
+			/> <class name="com.selenium.ebiz.search.DisplayRelatedSearchesThematicPagesAuthenticatedUser_NOTWORKING" 
+			/> <class name="com.selenium.ebiz.search.NoSearchResultGuestUser" /> <class 
+			name="com.selenium.ebiz.search.NoSearchResultLoggedInUser" /> <class name="com.selenium.ebiz.search.PartNumberSearch" 
+			/> <class name="com.selenium.ebiz.search.SearchFilteringOptionsSubCategory" 
+			/> <class name="com.selenium.ebiz.search.SearchResultPageGuestUser" /> <class 
+			name="com.selenium.ebiz.search.SearchResultPageGuestUser_NOTWORKING" /> <class 
+			name="com.selenium.ebiz.search.SearchResultPageLoggedInUser" /> <class name="com.selenium.ebiz.search.SearchResultPageLoggedInUser_NOTWORKING" 
+			/> <class name="com.selenium.ebiz.search.SearchResultsPageListViewGuestUser" 
+			/> <class name="com.selenium.ebiz.search.SearchResultsPageListViewLoggedInUser" 
+			/> </classes> -->
+
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="EWALLET2 Suite" verbose="100" thread-count="100" parallel="classes">
+
+	 <test name="EWALLET2">
+		<packages>
+			<package name="com.selenium.ebiz.ewallet_2"/>
+		</packages>
+	</test>
+</suite>

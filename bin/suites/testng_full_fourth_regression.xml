@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Fourth Regression Suite" thread-count="100" parallel="methods">
+
+	<test name="Fourth Regression Suite">
+
+		<packages><!-- 48 -->
+			<package name="com.selenium.ebiz.search"/> <!--34-->
+			<package name="com.selenium.ebiz.add_to_cart.addToCart_grid"/> <!--14-->
+
+		</packages>
+
+
+	</test>
+</suite>

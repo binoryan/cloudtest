@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Suite" verbose="100" thread-count="100" parallel="methods">
+
+
+	 <test name="PRODUCT LISTING PAGE TEST">
+		<packages>
+			<package name="com.selenium.ebiz.product_listing_page.plp_grid"/>
+		</packages>
+
+	</test>
+</suite>

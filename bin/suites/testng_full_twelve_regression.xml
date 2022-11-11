@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Twelve Regression Suite" thread-count="100" parallel="methods">
+
+	<test name="Twelve Regression Suite">
+
+		<packages> <!-- 35  -->
+			<package name="com.selenium.ebiz.product_detail_page"/> <!--35-->
+			<package name="com.selenium.ebiz.badges"/> <!--22-->
+		</packages>
+
+
+	</test>
+</suite>

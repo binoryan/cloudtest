@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="ORDER HISTORY TESTS Suite" verbose="100" thread-count="100" parallel="methods">
+
+
+	<test name="ORDER HISTORY TESTS">
+	 <packages>
+		 <package name="com.selenium.ebiz.order_history.orderHistory_grid"/>
+	 </packages>
+
+	</test>
+</suite>

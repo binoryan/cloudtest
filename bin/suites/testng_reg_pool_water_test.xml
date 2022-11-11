@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Suite" parallel="methods" thread-count="100" verbose="100">
+
+	<test name="POOL WATER TEST">
+		<packages>
+			<package name="com.selenium.ebiz.pool_water_testing" />
+		</packages>
+	</test>
+</suite>

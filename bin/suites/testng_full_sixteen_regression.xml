@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="sixteen Regression Suite" thread-count="100" parallel="methods">
+
+	<test name="sixteen Regression Suite">
+
+		<packages> <!-- 22 -->
+			<package name="com.selenium.ebiz.punchout"/> 
+			<package name="com.selenium.ebiz.punchout.order_history"/> <!-- 1 -->
+		</packages>
+
+
+	</test>
+</suite>

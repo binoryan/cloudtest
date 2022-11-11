@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Selenium TestNG XML FILE -->
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.selenium.ebiz.listener.TestListener"/>
+		<listener class-name="com.selenium.ebiz.listener.AnnotationTransformer"/>
+	</listeners>
+
+	 <test name="Email And Print Pages Test">
+		<classes>
+			<class name="com.selenium.ebiz.email_and_print_pages.VerifyNewEmailFields" />
+			<class name="com.selenium.ebiz.email_and_print_pages.printPageTest_notCompleted" />
+		</classes>
+	</test>
+</suite>
