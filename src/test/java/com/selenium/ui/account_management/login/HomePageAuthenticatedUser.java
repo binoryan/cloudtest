@@ -33,6 +33,7 @@ public class HomePageAuthenticatedUser extends BaseClassV8_ParallelGrid
 		getURL("https://www.facebook.com");
 		PageManager pageManager = new PageManager(driver);
 		String title = pageManager.common().getTitle(driver);
+		Thread.sleep(3000);
 		Assert.assertTrue(title.contains(facebook));
 	}
 	
@@ -44,6 +45,7 @@ public class HomePageAuthenticatedUser extends BaseClassV8_ParallelGrid
 		getURL("https://twitter.com");
 		PageManager pageManager = new PageManager(driver);
 		String title = pageManager.common().getTitle(driver);
+		Thread.sleep(3000);
 		Assert.assertTrue(title.contains(twitter));
 	}
 
@@ -55,6 +57,7 @@ public class HomePageAuthenticatedUser extends BaseClassV8_ParallelGrid
 		getURL("https://www.linkedin.com");
 		PageManager pageManager = new PageManager(driver);
 		String title = pageManager.common().getTitle(driver);
+		Thread.sleep(3000);
 		Assert.assertTrue(title.contains(linkedin));
 	}
 	
@@ -65,7 +68,8 @@ public class HomePageAuthenticatedUser extends BaseClassV8_ParallelGrid
 		WebDriver driver = this.getWebDriver();
 		getURL("https://www.google.com");
 		PageManager pageManager = new PageManager(driver);
-		String title = pageManager.common().getTitle(driver);;
+		String title = pageManager.common().getTitle(driver);
+		Thread.sleep(3000);
 		Assert.assertTrue(title.contains(google));
 	}
 	

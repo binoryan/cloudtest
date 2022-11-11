@@ -1,1 +1,0 @@
-Renovation Quote Details tcs will be added in this package

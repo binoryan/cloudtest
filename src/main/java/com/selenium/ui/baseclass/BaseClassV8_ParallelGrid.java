@@ -157,7 +157,7 @@ public class BaseClassV8_ParallelGrid {
 			caps.setCapability(CapabilityType.BROWSER_NAME, BrowserType.CHROME);
 			
 			webDriver.set(new RemoteWebDriver(
-					new URL("http://" + "bino" + ":" + "Zalenium2022" + "@" + "104.154.99.71" + "/wd/hub"),
+					new URL("http://" + "binojs" + ":" + "Zalenium2022" + "@" + "35.239.229.139" + "/wd/hub"),
 					caps));
 
 			// set current sessionId
